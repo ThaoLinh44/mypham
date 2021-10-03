@@ -250,6 +250,11 @@
                     <li><a href="#">Hướng dẫn</a></li>
                     <li><a href="#">Liên hệ</a></li>
                   </ul>
+                    <ul>
+                    <li><a href="index.php">Trang chủ</a></li>
+                    <li><a href="#">Hướng dẫn</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                  </ul>
                 </div>
                  <div id="search">
                         <form action="search.php" method="get">
