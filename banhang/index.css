@@ -1,0 +1,712 @@
+body {
+  font-family:Courier New, "Times New Roman", sans-serif;
+  font-size: 17px;
+  background-color: #F5FFFA;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#toancuc {
+    font-size: 17px;
+    margin: 0 auto;
+    width: 1490px;
+    background-color: #FFFFCC;
+    
+}
+
+/*==Reset CSS==*/
+* {
+  margin: 0;
+  padding: 0;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.main-top-w3l {
+    background: #c90819;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 1200px)
+.col-lg-4 {
+    width: 33.33333333%;
+}
+@media (min-width: 1200px)
+.col-lg-4 {
+    width: 33.33333333%;
+}
+
+/*==Style cho menu===*/
+#menu{
+    font-family:Courier New, "Times New Roman", sans-serif;
+    background-color: #696969;
+    z-index: 100;
+}
+#menu ul {
+  list-style-type: none;
+  background-color: blue;
+}
+#menu li {
+    float: left;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #33CC99;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
+#login li {
+    float: right;
+    width: 120px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 5px;
+    background-color:#33CC99;
+    right: 49%;
+}
+
+#login a {
+    text-decoration: none;
+    
+    color: white;
+}
+#gioh {
+    padding-left: 5px;
+    padding-right: 5px;
+    float: right;
+    right: 4px;
+    background-color: white;
+    position: relative;
+}
+
+h1 {
+    font-size: 60px;
+    color: red;
+    position:relative;
+    top: -100px;
+    left: 280px;
+    
+}
+
+#search {
+    float: left;
+    margin-left: 30px;
+
+
+}
+#timnhap {
+  width: 550px;
+  height: 40px;
+  left:299px;
+}
+#nuttim {
+  width: 100px;
+  height: 40px;
+}
+#giohang{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    width: 1150px;
+    position:relative;
+}
+#thongtingiohang{
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+#thongtingiohang a {
+  text-decoration: none;
+}
+#thongtingiohang h2{
+    margin-right: auto;
+    margin-left: auto;
+    position:relative;
+}
+.gioten, .giogia , .giosl{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 0.5px solid black;
+}
+.gioxoa{
+    padding-left: 20px;
+}
+#thanhtoangiohang{
+    color: white;
+    width: 130px;
+    height: 50px;
+    background-color: #FF0000;
+    border: 1px solid black;
+    font-size: 17px;
+}
+#menu2{
+    float: left;
+}
+#menu2 ul {
+  list-style-type: none;
+    background-color: #B5B5B5;
+}
+#menu2 li {
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #B5B5B5;
+}
+#menu2 a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+#dt{
+    width: 150px;
+    line-height: 37px;
+    background-color: #CCFF66;
+}
+#dt li {
+    float: left;
+    width: 150px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+    background-color: #9C9C9C;
+}
+#dt a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#dt a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
+#pk{
+    width: 150px;
+    line-height: 37px;
+    background-color: #CCFF66;
+}
+#pk li {
+    float: left;
+    width: 150px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+    background-color: #9C9C9C;
+}
+#pk a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#pk a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+#cs{
+    width: 150px;
+    line-height: 37px;
+    background-color: #CCFF66;
+}
+#cs li {
+    float: left;
+    width: 150px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+    background-color: #9C9C9C;
+}
+#cs a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#cs a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+#noidungchinh{
+    margin-left: 200px;
+    
+}
+
+#showContainer {
+/* Main wrapper for all images */
+width: 100%;
+
+padding: 0;
+margin: 0 auto;
+overflow: hidden;
+position: relative;
+text-align: center;
+}
+.navButton {
+/* Make buttons look nice */
+cursor: pointer;
+float: left;
+width: 25px;
+height: 43px;
+padding: 10px;
+margin-right: 5px;
+overflow: hidden;
+text-align: center;
+color: white;
+font-weight: bold;
+font-size: 18px;
+background: #000000;
+opacity: 0.65;
+user-select: none;
+}
+.navButton:hover {
+opacity: 1;
+}
+#previous{
+    position: inherit;
+    top: 100px;
+}
+#next{
+    position: inherit;
+    right: 0px;
+    top: 100px;
+}
+.imageContainer:not(:first-child) {
+/* Hide all images except the first */
+display: none;
+} 
+
+.spnb a{
+    text-decoration: none;
+    color: black;
+}
+.spnb{
+    text-align: center;
+    width: 250px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    height: 400px;
+    background-color: white;
+} 
+.sp a{
+    text-decoration: none;
+    color: black;
+}
+.sp{
+    width: 230px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+    height: 440px;
+    background-color: yellow;
+    text-align: center;
+}
+#sanpham{
+    position:relative;
+    align-content: center;
+    align-items: center;
+    margin-left: 20%;
+    
+}
+
+#hinh{
+    
+    float:left;
+    position: relative;
+    right: 20%;
+}
+.hinhsp{
+    float: left;
+    right: 120px;
+}
+#thongtin{
+    /*float: left;*/
+    right: 40px;
+    position: relative;
+    text-align: 400px;
+}
+.thongtinsp{
+    float: left;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    position:relative;
+    right: 660%;
+}
+#canbiet{
+    float: left;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    position:relative;
+    right:35%;
+
+}
+#muasl{
+    width: 125px;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    background-color:#F5FFFA; 
+    border: 0px;
+}
+#gio{
+    color: #FF7F00;
+    width: 187px;
+    height: 60px;
+    top: 17px;
+    left:0px ;
+    position:relative;
+    background-color: #FFFFF0;
+    font-size: 21px;
+    border: 1px solid #FF7F00;
+}
+#mua{
+    color: white;
+    left: 20px;
+    width: 180px;
+    height: 60px;
+    top: 17px;
+    position:relative;
+    background-color: #FFB90F;
+    font-size: 21px;
+    border: 1px solid #FF7F00;
+}
+#mota{
+    width: 1350px;
+    padding: 10px;
+    clear: left;
+    margin-left: auto;
+    margin-right: 15%;
+    top: 50px;
+    position:relative;
+    right:6%;
+}
+#thanhtoan{
+    left:10px;
+    padding: 25px;
+    width: 1150px;
+    position:relative;
+    align-content: center;
+}
+
+#thongtindiachi{
+    float: left;
+    width: 36%;
+
+}
+#chucnang{
+    width: 200px;
+    float: left;
+}
+#chucnang li {
+    float: left;
+    width: 200px;
+    text-align: center;
+    line-height: 37px;
+    background-color: #F0F8FF;
+}
+#chucnang a {
+  text-decoration: none;
+  color: #000080;
+  display: block;
+}
+#chucnang a:hover {
+  background: #FAFAD2;
+  color: #333;
+}
+
+#tieudethanhtoan{
+    padding: 10px;
+}
+#thongtinsanpham{
+    float: left;
+    width: 700px;
+    text-align: center;
+}
+#thongtintk{
+    padding-left: 25px;
+    width: 1027px;
+}
+#tongtien{
+    left: -50px;
+    position: relative;
+}
+#gichu-thanhtoan{
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 150px;
+    height: 60px;
+}
+#nutthanhtoan{
+    color: white;
+    width: 150px;
+    height: 60px;
+    background-color: #FF4500;
+    border: 2px solid #CD3700;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#tk{
+    padding: 25px;
+    width: 1170px;
+}
+
+#dangki{
+    padding: 17px;
+    background-color: #F5FFFA;;
+    color: #191970 ;
+}
+#dk{
+    padding: 7px;
+    background-color: #F5FFFA;;
+    color: #191970 ;
+}
+#khung{
+    width:200px;
+    height: 29px;
+    font-size: 18px;
+}
+
+#nutdk{
+    margin-left: 150px;
+    color: white;
+    font-size: 18px;
+    width: 90px;
+    height: 40px;
+    background-color:#FF3333;  
+    border: 1px;
+}
+
+#nutdn{
+    margin-left: 50px;
+    color:#FF3300 ;       
+    font-size: 20px;
+    width: 120px;
+    height: 43px;
+    background-color:#FFFFE0;  
+    border: 1px solid #EE7600;
+}
+
+#dctk{
+    width: 300px;
+}
+#tttk{
+    margin-left: 100px; 
+}
+#tttk tr{
+    margin-top: 100px;
+}
+#tttk td{
+    font-size: 21px;
+}
+#capnhat{
+    left: 110px;
+    top: 15px;
+    position: relative;
+    color:#FF3300 ;       
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    background-color:#FFFFE0;  
+    border: 2px solid #EE7600;
+}
+#chucnang2 ul {
+  list-style-type: none;
+}
+#chucnang2 li {
+    float: left;
+    padding-right: 50px;
+
+}
+#chucnang2 a {
+  text-decoration: none;
+ 
+}
+
+/*------for FOOTER--------*/
+*{
+     margin:auto;
+     padding:auto;
+     box-sizing: border-box;
+     
+     font-size: 17px;
+ }
+footer{
+     position: relative;
+     width: 100%;
+     height: auto;
+     padding: 50px 100px;
+     background: #F5FFFA;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+footer .container{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     flex-direction: row;
+ }
+footer .container .ngang{
+     width: 100%;
+     background-color: #696969;
+      color: #58257b;
+      padding: 3px;
+      text-align: center;
+ }
+ /*Thiết Lập Cho Thành Phần Nội Dung Giới Thiệu*/
+ footer .container .noi-dung{
+     margin: 15px 40px 15px;
+ }
+footer  .container .noi-dung.about{
+     position: relative;
+     width:20%;
+ }
+ footer .container .noi-dung.about h2{
+     position: relative;
+     color: #000066;
+     font-weight: 500;
+     margin-bottom: 15px;
+ }
+ footer .container .noi-dung.about h2:before{
+     content: '';
+     position: absolute;
+     bottom: -5px;
+     left: 0;
+     width: 100%;
+     height: 2px;
+     background: #f00;
+ }
+footer .container .noi-dung.about p{
+     color: black;
+ }
+ /*Thiết Lập Cho Thành Phần Icon Mạng Xã Hội*/
+ .social-icon{
+     margin-top: 10px;
+     display: flex;
+ }
+.social-icon li {
+     list-style: none;
+ }
+ .social-icon li a{
+     display: inline-block;
+     width: 40px;
+     height: 40px;
+     background: #222;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: 10px;
+     text-decoration: none;
+     border-radius: 4px;
+ }
+.social-icon li a:hover{
+     background: green;
+ }
+.social-icon li a .fa{
+     color: yellow;
+     font-size: 20px;
+ }
+ /*Chăm sóc*/
+.care h2{
+     position: relative;
+     color: #000066;
+     font-weight: 500;
+     margin-bottom: 15px;
+ }
+.care h2::before{
+     content: '';
+     position: absolute;
+     bottom: -5px;
+     left: 0;
+     width: 100%;
+     height: 2px;
+     background: #f00;
+ }
+.care{
+    position: relative;
+    width:27%;
+ }
+ .care ul li{
+     list-style: none;
+ }
+ .care ul li a{
+     color: black;
+     text-decoration: none;
+     margin-bottom: 10px;
+     display: inline-block;
+ }
+.care ul li a:hover{
+     color:#1E90FF;
+ }
+  /*Liên hệ*/
+ .contact h2{
+     position: relative;
+     color: #000066;
+     font-weight: 500;
+     margin-bottom: 15px;
+ }
+.contact h2::before{
+     content: '';
+     position: absolute;
+     bottom: -5px;
+     left: 0;
+     width: 100%;
+     height: 2px;
+     background: #f00;
+ }
+.contact{
+    position: relative;
+    width: 27%;
+ }
+.contact .info{
+     position: relative;
+
+ }
+ .contact .info li{
+     display: flex;
+ }
+.contact .info li span:nth-child(1) {
+     color:black;
+     font-size: 20px;
+     margin-right: 10px;
+ }
+.contact .info li span{
+     color: black;
+     align-items: left;
+ }
+.contact .info li a{
+     color: black;
+     text-decoration: none;
+ }
+ .contact .info li a:hover{
+     color:#1E90FF;
+ }

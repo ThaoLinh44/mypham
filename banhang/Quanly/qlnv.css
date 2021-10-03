@@ -1,0 +1,385 @@
+body {
+  font-family:Courier New, "Times New Roman", sans-serif;
+  font-size: 17px;
+  background-color: #F5FFFA;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+#toancuc {
+    font-size: 17px;
+    margin: 0 auto;
+    width: 1350px;
+    background-color: #F5FFFA;
+    
+}
+
+/*==Style cho menu===*/
+#menu{
+    font-family:Courier New, "Times New Roman", sans-serif;
+    background-color: #696969;
+    z-index: 100;
+}
+#menu ul {
+  list-style-type: none;
+  background-color: #696969;
+}
+#menu li {
+    float: left;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #696969;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
+#login li {
+    float: right;
+    width: 95px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 5px;
+    background-color:cadetblue;
+}
+
+#login a {
+    text-decoration: none;
+    
+    color: white;
+}
+#gioh {
+    padding-left: 5px;
+    padding-right: 5px;
+    float: right;
+    right: 15px;
+    background-color: white;
+    position: relative;
+}
+
+h1 {
+    font-size: 60px;
+    color: red;
+    position:relative;
+    top: -100px;
+    left: 280px;
+    
+}
+
+#search {
+    float: left;
+    margin-left: 10px;
+
+}
+#timnhap {
+  width: 490px;
+  height: 40px;
+}
+#nuttim {
+  width: 70px;
+  height: 40px;
+}
+
+#nutgui{
+    width: 50px;
+    height: 33px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#nd2{
+    width: 100%;
+    height: 100%;
+    color: #000080;
+}
+.gioten, .giogia , .giohinh , .gioten, .gioxoa, .giosl{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 0.5px solid black;
+}
+.gioxoa{
+    padding-left: 20px;
+}
+#chucnang2{
+    margin-left: auto;
+    margin-right: auto;
+}
+#chucnang2 ul {
+  list-style-type: none;
+  margin-left: auto;
+    margin-right: auto;
+}
+#chucnang2 li {
+    float: left;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#chucnang2 a {
+    color: black;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+#mucluc{
+    float: left;
+    width: 270px;
+    color: red;
+}
+
+a{
+    text-decoration: none;
+}
+#mucluc a {
+  color: red;
+}
+#tieudemucluc{
+    float: left;
+    color: red;
+    width: 270px;
+    height: 33px;
+    text-align: center;
+    background-color: #FFFACD;
+}
+#noidung{
+    width: 1170px;
+    height: 100%;
+}
+#noidung h2{
+    position:relative;
+    left: 25%;
+}
+#noidung table{
+    position:relative;
+    left: 50px;
+}
+#mota{
+    width: 300px;
+}
+#nutcapnhathang{
+    margin-left: 55px;
+    width:  60px;
+    height: 25px;
+}
+hr{
+    width: 27%;
+    background-color: red;
+    height: 2px;
+
+}
+#giua{
+    width: 270px;
+    float: left;
+}
+#giua li {
+    float: left;
+    width: 270px;
+    text-align: center;
+    line-height: 37px;
+}
+#giua a {
+  text-decoration: none;
+  color: #000080;
+  display: block;
+}
+#giua a:hover {
+  background: #DCDCDC;
+  color: red;
+}
+/*------for quản lý Đăng nhập--------*/
+#dangki{
+    padding: 7px;
+    background-color: #F5FFFA;;
+    color: #191970 ;
+}
+#dk{
+    background-color: #F5FFFA;;
+    color: #191970 ;
+}
+#khung{
+    width:300px;
+    height: 29px;
+    font-size: 18px;
+}
+#nutdn{
+    margin-left: 50px;
+    color:#FF3300 ;       
+    font-size: 20px;
+    width: 120px;
+    height: 43px;
+    background-color:#FFFFE0;  
+    border: 1px solid #EE7600;
+}
+/*------for FOOTER--------*/
+*{
+     margin:auto;
+     padding:auto;
+     box-sizing: border-box;
+     font-family: Roboto;
+     font-size: 17px;
+ }
+footer{
+     position: relative;
+     width: 100%;
+     height: auto;
+     padding: 50px 100px;
+     background: #F5FFFA;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+footer .container{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     flex-direction: row;
+ }
+footer .container .ngang{
+     width: 100%;
+     background-color: #696969;
+      color: #58257b;
+      padding: 3px;
+      text-align: center;
+ }
+ /*Thiết Lập Cho Thành Phần Nội Dung Giới Thiệu*/
+ footer .container .noi-dung{
+     margin: 15px 40px 15px;
+ }
+footer  .container .noi-dung.about{
+     position: relative;
+     width:20%;
+ }
+ footer .container .noi-dung.about h2{
+     position: relative;
+     color: #000066;
+     font-weight: 500;
+     margin-bottom: 15px;
+ }
+ footer .container .noi-dung.about h2:before{
+     content: '';
+     position: absolute;
+     bottom: -5px;
+     left: 0;
+     width: 100%;
+     height: 2px;
+     background: #f00;
+ }
+footer .container .noi-dung.about p{
+     color: black;
+ }
+ /*Thiết Lập Cho Thành Phần Icon Mạng Xã Hội*/
+ .social-icon{
+     margin-top: 10px;
+     display: flex;
+ }
+.social-icon li {
+     list-style: none;
+ }
+ .social-icon li a{
+     display: inline-block;
+     width: 40px;
+     height: 40px;
+     background: #222;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: 10px;
+     text-decoration: none;
+     border-radius: 4px;
+ }
+.social-icon li a:hover{
+     background: green;
+ }
+.social-icon li a .fa{
+     color: yellow;
+     font-size: 20px;
+ }
+ /*Chăm sóc*/
+.care h2{
+     position: relative;
+     color: #000066;
+     font-weight: 500;
+     margin-bottom: 15px;
+ }
+.care h2::before{
+     content: '';
+     position: absolute;
+     bottom: -5px;
+     left: 0;
+     width: 100%;
+     height: 2px;
+     background: #f00;
+ }
+.care{
+    position: relative;
+    width:27%;
+ }
+ .care ul li{
+     list-style: none;
+ }
+ .care ul li a{
+     color: black;
+     text-decoration: none;
+     margin-bottom: 10px;
+     display: inline-block;
+ }
+.care ul li a:hover{
+     color:#1E90FF;
+ }
+  /*Liên hệ*/
+ .contact h2{
+     position: relative;
+     color: #000066;
+     font-weight: 500;
+     margin-bottom: 15px;
+ }
+.contact h2::before{
+     content: '';
+     position: absolute;
+     bottom: -5px;
+     left: 0;
+     width: 100%;
+     height: 2px;
+     background: #f00;
+ }
+.contact{
+    position: relative;
+    width: 27%;
+ }
+.contact .info{
+     position: relative;
+
+ }
+ .contact .info li{
+     display: flex;
+ }
+.contact .info li span:nth-child(1) {
+     color:black;
+     font-size: 20px;
+     margin-right: 10px;
+ }
+.contact .info li span{
+     color: black;
+     align-items: left;
+ }
+.contact .info li a{
+     color: black;
+     text-decoration: none;
+ }
+ .contact .info li a:hover{
+     color:#1E90FF;
+ }
